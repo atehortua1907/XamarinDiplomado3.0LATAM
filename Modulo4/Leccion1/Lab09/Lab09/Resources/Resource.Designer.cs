@@ -26,6 +26,8 @@ namespace Lab09
 		
 		public static void UpdateIdValues()
 		{
+			global::SALLab09.Resource.String.ApplicationName = global::Lab09.Resource.String.ApplicationName;
+			global::SALLab09.Resource.String.Hello = global::Lab09.Resource.String.Hello;
 		}
 		
 		public partial class Attribute
@@ -47,12 +49,31 @@ namespace Lab09
 			// aapt resource value: 0x7f020000
 			public const int Icon = 2130837504;
 			
+			// aapt resource value: 0x7f020001
+			public const int logo = 2130837505;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 			}
 			
 			private Drawable()
+			{
+			}
+		}
+		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int imageView1 = 2131034112;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
 			{
 			}
 		}
