@@ -65,8 +65,26 @@ namespace Lab09
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050004
+			public const int StatusValue = 2131034116;
+			
+			// aapt resource value: 0x7f050003
+			public const int StatusView = 2131034115;
+			
+			// aapt resource value: 0x7f050006
+			public const int TokenValue = 2131034118;
+			
+			// aapt resource value: 0x7f050005
+			public const int TokenView = 2131034117;
+			
+			// aapt resource value: 0x7f050002
+			public const int UserNameValue = 2131034114;
+			
 			// aapt resource value: 0x7f050000
 			public const int imageView1 = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int textView1 = 2131034113;
 			
 			static Id()
 			{
@@ -102,6 +120,15 @@ namespace Lab09
 			
 			// aapt resource value: 0x7f040000
 			public const int Hello = 2130968576;
+			
+			// aapt resource value: 0x7f040003
+			public const int Status = 2130968579;
+			
+			// aapt resource value: 0x7f040004
+			public const int Token = 2130968580;
+			
+			// aapt resource value: 0x7f040002
+			public const int UserName = 2130968578;
 			
 			static String()
 			{
