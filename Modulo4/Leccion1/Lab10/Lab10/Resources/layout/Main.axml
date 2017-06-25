@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/xamarindiplomado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1" />
+<!--<Button
+        android:text="@string/ButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ClickMe" />
+    <TextView
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ClickCounter" />
+    <TextView
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ContentHeader" />-->
+    <TextView
+        android:text="@string/EmailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EmailText" />
+    <EditText
+        android:text="Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/StudenEmail"
+        android:inputType="textEmailAddress" />
+    <TextView
+        android:text="@string/PassText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+    <EditText
+        android:text="Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PasswordStudent"
+        android:inputType="textPassword" />
+    <Button
+        android:text="@string/ButtonText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonValidate" />
+    <TextView
+        android:text="Texto de Confirmacion"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ConfirmationText"
+        android:padding="25dp"
+        android:textColor="@android:color/holo_orange_dark" />
+</LinearLayout>
