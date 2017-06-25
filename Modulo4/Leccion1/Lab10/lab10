@@ -1,0 +1,18 @@
+INTRODUCCION
+
+La Localización de una Aplicación es la acción de proporcionar recursos alternativos destinados a una 
+región o entorno local específico. Por ejemplo, podríamos proporcionar valores cadena localizados
+con el lenguaje de varios países o incluso cambiar colores o diseños para que coincidan con culturas
+particulares. Android carga y utiliza en tiempo de ejecución los recursos apropiados para la 
+configuración regional del dispositivo sin la necesidad de realizar algún cambio en el código fuente. 
+Este laboratorio presenta una introducción a las principales características de localización de Android 
+y la forma de acceder a ellas desde Xamarin. 
+
+OBJETIVOS
+Al finalizar este laboratorio, los participantes serán capaces de: 
+
+	Utilizar recursos alternativos para localizar aplicaciones Android.  
+
+	Obtener cadenas localizadas mediante código. 
+	Colocar cadenas localizadas en los diseños de interfaz de usuario. 
+	Utilizar Assets en aplicaciones Android. 
