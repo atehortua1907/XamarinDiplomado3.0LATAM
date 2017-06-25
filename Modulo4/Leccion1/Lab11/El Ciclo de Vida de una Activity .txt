@@ -1,0 +1,43 @@
+El Ciclo de Vida de una Activity 
+CONTENIDO 
+
+INTRODUCCIÓN 
+
+EJERCICIO 1: GUARDANDO EL ESTADO DE LA ACTIVITY 
+Tarea 1. Crear un proyecto Android. 
+
+Tarea 2. Examinar los métodos del ciclo de vida de la Activity. 
+
+Tarea 3. Examinar las transiciones de estado. 
+
+Tarea 4. Agregar un contador de Clics. 
+
+Tarea 5. Manejar el estado utilizando un objeto Bundle. 
+
+Tarea 6. Persistir datos complejos. 
+
+EJERCICIO 2: VALIDANDO TU ACTIVIDAD 
+Tarea 1. Agregar los componentes de la Capa de acceso a Servicio. 
+
+Tarea 2. Agregar la funcionalidad para validar la actividad. 
+
+RESUMEN 
+
+Las Activities son el bloque de construcción fundamental de las aplicaciones Android y pueden existir
+en varios estados diferentes. El ciclo de vida de una Activity comienza con la instanciación y termina 
+con la destrucción incluyendo varios estados intermedios. Cuando una Activity cambia de estado se
+genera un evento del ciclo de vida de la Activity. El método que maneja ese evento es invocado 
+notificando a la Activity del cambio de estado inminente y permitiéndole ejecutar código para 
+adaptarse a ese cambio.  
+En este laboratorio examinaremos el ciclo de vida de las Activities y explicaremos la responsabilidad 
+que tiene una Activity durante cada uno de los cambios de estado para poder crear aplicaciones
+confiables y consientes del ambiente operativo Android. 
+
+
+Objetivos 
+Al finalizar este laboratorio, los participantes serán capaces de: 
+
+	Describir el ciclo de vida de una Activity.
+	Describir los estados de una Activity. 
+	Describir los métodos asociados al ciclo de vida de una Activity. 
+	Conservar el estado de una Activity.
